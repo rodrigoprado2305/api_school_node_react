@@ -21,6 +21,12 @@ npm run dev
 src/server.js
 src/config/env.js
 
+### BD docker
+docker run --name postgres_17 -p 5432:5432 -e POSTGRES_PASSWORD=Pg12345* -d postgres:17-alpine
+
+D:\github\Rod\api_school_node_react\backend\src\script_db\tables.sql
+D:\github\Rod\api_school_node_react\backend\src\script_db\seed-db.sql
+Databasename: mgmt_school 
 ---
 
 ## 🛠️ Stack Detail - frontend
@@ -37,10 +43,6 @@ npm run dev
 ```
 
 ---
-
-
-
-
 
 ### usuario para login
 Username- desenvolvimentoti@gmail.com
